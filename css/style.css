@@ -1,0 +1,103 @@
+#container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.botonDiv{
+   float:left;
+}
+hr{
+    margin-top: 72px;
+
+}
+h1{
+    text-decoration:underline;
+}
+h2{
+    float:left;
+    text-decoration:underline;
+    font-style:italic;
+}
+.user-list-content{
+    float:left;
+}
+.last-col{
+    border-right:none;
+}
+.BotonNew{
+	background:#e5e5e5;
+    display:inline-block;
+    margin:0 6px;
+    padding:7px 20px 7px;
+    color:#333;
+    text-decoration:none;
+    text-shadow: 0 1px 1px #FFF;
+    border:1px solid #ccc;
+
+}
+table{
+	border: 1px solid;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+table th{
+	width: 150px;
+	border-right: 1px solid;
+}
+table td{
+	border-top: 1px solid;
+    border-right: 1px solid;
+    text-align: center;
+}
+.btn {
+	background:#e5e5e5;
+	color: black;
+	display: inline-block;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.btn a {
+    color:black;
+    text-decoration: none;
+}
+.edit-user-form{
+
+    float: left;
+    width: 100%;
+}
+input{
+    margin-right: 40px;
+}
+span{
+    margin-left: 10px;
+}
+.items{
+    width: 300px;
+    margin: auto;
+
+}
+.inputAge{
+    margin-left: 43px;
+}
+.items label{
+    float:left;
+}
+.notShow {
+    visibility: hidden;
+}
+.updateMsg {
+    color: #3A9C1B;
+    font-weight: bold;
+}
+.error {
+    color: red;
+}

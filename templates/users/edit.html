@@ -1,0 +1,20 @@
+<h2><%= typeof(id)!== 'undefined' ?  'Edit User' : 'Create User' %></h2>
+<div class="edit-user-form">
+<p class="updateMsg notShow">Success!</p>
+	<div class="items">
+	    <label>First Name</label>
+	    <input name="firstName" type="text" value=<%= typeof(name)!== 'undefined' ?  name : '' %>>
+    </div>
+    <div class="items">
+	    <label>Last Name</label>
+	    <input name="lastName" type="text" value=<%= typeof(lastName)!== 'undefined' ?  lastName : '' %>>
+    </div>
+    <div class="items">
+        <label>Age</label>
+        <input class="inputAge" name="age" type="text" value=<%= typeof(age)!== 'undefined' ?  age : '' %>>
+    </div>
+    <hr />
+
+    <button class="btn <%= typeof(id)!== 'undefined' ?  'editBtn' : 'createBtn' %>" id="<%= typeof(id)!== 'undefined' ?  id : '' %>"><%= typeof(id)!== 'undefined' ?  'Update' : 'Create' %> </button>
+    <a href=""><button class="btn">Go back to list</button></a>
+</div>

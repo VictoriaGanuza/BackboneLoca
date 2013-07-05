@@ -1,0 +1,24 @@
+<h2> User List</h2>
+<div class="user-list-content">
+<div class="botonDiv"><a href="#/users/create" class="BotonNew">New User</a></div>
+    <hr />
+    <table class="table striped">
+      <thead>
+        <tr>
+          <th>User Id</th><th>First Name</th><th>Last Name</th><th>Age</th><th></th><th class="last-col"></th>
+        </tr>
+      </thead>
+      <tbody>
+       <% _.each(users, function(users) { %>
+          <tr>
+            <td><%= users.id %></td>
+            <td><%= users.name %></td>
+            <td><%= users.lastName %></td>
+            <td><%= users.age %></td>
+            <td><a class="btn" href="#/users/edit/<%= users.id %>">Edit</a></td>
+            <td class="last-col"><a class="btn" href="#/users/delet/<%= users.id %>">Delete</a></td>
+          </tr>
+        <% }); %>
+      </tbody>
+</table>
+</div>
